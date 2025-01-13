@@ -1,0 +1,40 @@
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    height: 200vh;
+    background-color: aqua;
+    }
+    .navbar{
+    overflow: hidden;
+    background-color: rgb(38, 46, 134);
+    }
+    /* Style the links inside the navigation bar */
+    .navbar a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #275e86;
+    }
+    
+    /* Change the color of links on hover */
+    .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .navbar a.active {
+    background-color: #1e4563;
+    color: rgb(255, 255, 255);
+    
+    }
+    .class{
+        position: fixed;
+        color: aliceblue;
+    }
+    

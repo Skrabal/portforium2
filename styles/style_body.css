@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(31, 16, 232);
+    height: 200vh;
+    bottom: 0cm;
+    height: 200vh;
+}
+.content{
+    flex: 1;
+    background-color: brown;
+}
+footer{
+    color: rgb(249, 249, 249);
+    justify-content: center;
+    display: flex;
+    background-color: brown;
+   position: fixed;
+   width: 100%;
+}
+.class{
+    position: fixed;
+    color: aliceblue;
+}
+.column{
+    float: left;
+    width: 50%;
+    color: rgb(0, 0, 0);
+   font-size: 500%;
+   font-family: 'Gambetta-Bold'; 
+    src: url('fonts/Gambetta-Bold');
+}
+.columnn{
+    font-size: 500%;
+    color: rgb(255, 255, 255);
+    font-family: 'Gambetta-Bold'; 
+    src: url('fonts/Gambetta-Bold');
+}
+
+.picture{
+  color: rgb(253, 253, 253);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+
+}
+.column {
+    float: left;
+    width: 50%;
+    font-family:'Gambetta-Bold';
+    src: url('fonts/Gambetta-Bold.woff') format('woff');   
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .text{
+ font-size: x-large;
+
+ 
+  }
+.section{
+height: 1000vh;
+}
+.html{
+    scroll-behavior: smooth;
+}
+
