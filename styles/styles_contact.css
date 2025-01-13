@@ -23,13 +23,13 @@ footer {
     
     /* Change the color of links on hover */
     .navbar a:hover {
-    background-color: #ddd;
+    background-color: #000000;
     color: black;
     }
     
     /* Add a color to the active/current link */
     .navbar a.active {
-    background-color: #1e4563;
+    background-color: #fafafa;
     color: rgb(255, 255, 255);
     
     }

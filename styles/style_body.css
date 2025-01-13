@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(31, 16, 232);
+    background-color: rgb(38, 0, 255);
     height: 200vh;
     bottom: 0cm;
     height: 200vh;
@@ -28,13 +28,6 @@ footer{
    font-family: 'Gambetta-Bold'; 
     src: url('fonts/Gambetta-Bold');
 }
-.columnn{
-    font-size: 500%;
-    color: rgb(255, 255, 255);
-    font-family: 'Gambetta-Bold'; 
-    src: url('fonts/Gambetta-Bold');
-}
-
 .picture{
   color: rgb(253, 253, 253);
   display: block;
@@ -45,12 +38,16 @@ footer{
 
 }
 .column {
-    float: left;
+    float: right;
     width: 50%;
     font-family:'Gambetta-Bold';
     src: url('fonts/Gambetta-Bold.woff') format('woff');   
     
   }
+  .ahoj{
+    color: aliceblue;
+  }
+  
   
   /* Clear floats after the columns */
   .row:after {
@@ -60,11 +57,13 @@ footer{
   }
   .text{
  font-size: x-large;
-
- 
+  }
+  .ferrrari{
+    color: black;
   }
 .section{
 height: 1000vh;
+float: right;
 }
 .html{
     scroll-behavior: smooth;
@@ -92,9 +91,19 @@ height: 1000vh;
         src: url('fonts/Gambetta-Bold');
     }
     .picture{
-        color: rgb(253, 253, 253);
+        color: rgb(255, 255, 255);
         display: flex;
-        
-      
       }
+      .column {
+    float: left;
+    width: 50%;
+    font-family:'Gambetta-Bold';
+    src: url('fonts/Gambetta-Bold.woff') format('woff');   
+    
+  }
+  .ahoj{
+    color: rgb(0, 0, 0);
+  }
+  
+     
 }
