@@ -69,4 +69,32 @@ height: 1000vh;
 .html{
     scroll-behavior: smooth;
 }
-
+@media (width <= 750px) {
+    footer{
+        color: rgb(86, 0, 0);
+        justify-content: center;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+       position: fixed;
+       width: 100%;
+    }
+    .content{
+        flex: 1;
+        background-color: brown;
+        flex-direction: column;
+    }
+    .column{
+        float: left;
+        width: 50%;
+        color: rgb(255, 251, 251);
+       font-size: 500%;
+       font-family: 'Gambetta-Bold'; 
+        src: url('fonts/Gambetta-Bold');
+    }
+    .picture{
+        color: rgb(253, 253, 253);
+        display: flex;
+        
+      
+      }
+}
